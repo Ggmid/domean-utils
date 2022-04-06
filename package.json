@@ -1,0 +1,31 @@
+{
+  "name": "domean-utils",
+  "version": "1.0.0",
+  "description": "前端工具函数",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "father build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Ggmid/domean-utils.git"
+  },
+  "keywords": [
+    "utils"
+  ],
+  "types": "src/index.d.ts",
+  "author": "domean",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Ggmid/domean-utils/issues"
+  },
+  "homepage": "https://github.com/Ggmid/domean-utils#readme",
+  "dependencies": {
+    "father": "^2.30.17"
+  },
+  "devDependencies": {
+    "@types/node": "^17.0.23",
+    "typescript": "^4.6.3"
+  }
+}
